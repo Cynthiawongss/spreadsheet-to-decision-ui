@@ -1,0 +1,82 @@
+[
+  {
+    "page": "finance",
+    "language": "en",
+    "device": "desktop",
+    "viewport": [
+      1280,
+      900
+    ],
+    "checks": [
+      "no horizontal overflow",
+      "no JavaScript exceptions",
+      "no external network requests",
+      "collections change cash but not profit",
+      "visible negative cash",
+      "reset",
+      "keyboard slider"
+    ],
+    "passed": true,
+    "screenshot": "finance-en-desktop.png"
+  },
+  {
+    "page": "finance",
+    "language": "zh-CN",
+    "device": "desktop",
+    "viewport": [
+      1280,
+      900
+    ],
+    "checks": [
+      "no horizontal overflow",
+      "no JavaScript exceptions",
+      "no external network requests",
+      "collections change cash but not profit",
+      "visible negative cash",
+      "reset",
+      "keyboard slider"
+    ],
+    "passed": true,
+    "screenshot": "finance-zh-CN-desktop.png"
+  },
+  {
+    "page": "finance",
+    "language": "en",
+    "device": "mobile",
+    "viewport": [
+      390,
+      844
+    ],
+    "checks": [
+      "no horizontal overflow",
+      "no JavaScript exceptions",
+      "no external network requests",
+      "collections change cash but not profit",
+      "visible negative cash",
+      "reset",
+      "keyboard slider"
+    ],
+    "passed": true,
+    "screenshot": "finance-en-mobile.png"
+  },
+  {
+    "page": "finance",
+    "language": "zh-CN",
+    "device": "mobile",
+    "viewport": [
+      390,
+      844
+    ],
+    "checks": [
+      "no horizontal overflow",
+      "no JavaScript exceptions",
+      "no external network requests",
+      "collections change cash but not profit",
+      "visible negative cash",
+      "reset",
+      "keyboard slider"
+    ],
+    "passed": true,
+    "screenshot": "finance-zh-CN-mobile.png"
+  }
+]

@@ -1,0 +1,4 @@
+interface:
+  display_name: "Spreadsheet to Decision UI"
+  short_description: "Explain business reports with traceable interactive views"
+  default_prompt: "Use $spreadsheet-to-decision-ui to turn this report into a clear decision interface with source mapping and checked calculations."

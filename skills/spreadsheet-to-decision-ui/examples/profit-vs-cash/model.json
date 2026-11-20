@@ -1,0 +1,46 @@
+{
+  "schema_version": 1,
+  "currency": "USD",
+  "period": "period-1",
+  "data_kind": "synthetic",
+  "unit_scale": 1,
+  "opening": {
+    "cash": 1000,
+    "inventory": 200,
+    "receivables": 0,
+    "payables": 100,
+    "equity": 1100
+  },
+  "activity": {
+    "revenue": 1000,
+    "collections": 600,
+    "purchases": 1000,
+    "supplier_payments": 1100,
+    "cogs": 500,
+    "opex": 200
+  },
+  "reported": {
+    "profit": 300,
+    "cash_change": -700,
+    "closing_cash": 300,
+    "closing_inventory": 700,
+    "closing_receivables": 400,
+    "closing_payables": 0,
+    "closing_equity": 1400,
+    "assets": 1400,
+    "liabilities_and_equity": 1400
+  },
+  "provenance": {
+    "opening.cash": "source.csv!C2; synthetic fixture",
+    "opening.inventory": "source.csv!C3; synthetic fixture",
+    "opening.receivables": "source.csv!C4; synthetic fixture",
+    "opening.payables": "source.csv!C5; synthetic fixture",
+    "opening.equity": "source.csv!C6; synthetic fixture",
+    "activity.revenue": "source.csv!C7; synthetic fixture",
+    "activity.collections": "source.csv!C8; synthetic fixture",
+    "activity.purchases": "source.csv!C9; synthetic fixture",
+    "activity.supplier_payments": "source.csv!C10; synthetic fixture",
+    "activity.cogs": "source.csv!C11; synthetic fixture",
+    "activity.opex": "source.csv!C12; synthetic fixture"
+  }
+}

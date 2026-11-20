@@ -1,0 +1,11 @@
+{
+  "name": "spreadsheet-to-decision-ui",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "check:browser": "node tools/check_browser.cjs"
+  },
+  "devDependencies": {
+    "playwright": "1.62.1"
+  }
+}

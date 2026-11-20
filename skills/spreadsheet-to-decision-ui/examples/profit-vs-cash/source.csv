@@ -1,0 +1,12 @@
+group,field,value,currency,period
+opening,cash,1000,USD,period-1
+opening,inventory,200,USD,period-1
+opening,receivables,0,USD,period-1
+opening,payables,100,USD,period-1
+opening,equity,1100,USD,period-1
+activity,revenue,1000,USD,period-1
+activity,collections,600,USD,period-1
+activity,purchases,1000,USD,period-1
+activity,supplier_payments,1100,USD,period-1
+activity,cogs,500,USD,period-1
+activity,opex,200,USD,period-1

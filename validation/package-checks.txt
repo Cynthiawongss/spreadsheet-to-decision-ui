@@ -1,0 +1,6 @@
+SKILL.md: Skill is valid!
+SKILL.zh-CN.md: Skill is valid!
+Local Markdown links: passed
+Skill contents match approved review source: passed
+Cover matches selected candidate: passed
+Chinese mobile example screenshot visually inspected: passed
